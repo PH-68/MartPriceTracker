@@ -1,214 +1,198 @@
 {
-    "3C": [
-        {
-            "桌機．筆電．平板": [
+    "3C": {
+        "桌機．筆電．平板": {
+            "筆記型電腦": [
                 {
-                    "筆記型電腦": [
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        },
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        }
-                    ]
+                    "Id": 2120,
+                    "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                    "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                    "SeName": "/tw/4500110100101?categoryId=3418",
+                    "SpecialPrice": "13900",
+                    "Price": "15900",
+                    "PromotionActivityType": "滿額折/送",
+                    "PromotionActivityTypeId": 8
                 },
                 {
-                    "平板電腦": [
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        },
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        }
-                    ]
+                    "Id": 2120,
+                    "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                    "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                    "SeName": "/tw/4500110100101?categoryId=3418",
+                    "SpecialPrice": "13900",
+                    "Price": "15900",
+                    "PromotionActivityType": "滿額折/送",
+                    "PromotionActivityTypeId": 8
+                }
+            ],
+            "平板電腦": [
+                {
+                    "Id": 2120,
+                    "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                    "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                    "SeName": "/tw/4500110100101?categoryId=3418",
+                    "SpecialPrice": "13900",
+                    "Price": "15900",
+                    "PromotionActivityType": "滿額折/送",
+                    "PromotionActivityTypeId": 8
+                },
+                {
+                    "Id": 2120,
+                    "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                    "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                    "SeName": "/tw/4500110100101?categoryId=3418",
+                    "SpecialPrice": "13900",
+                    "Price": "15900",
+                    "PromotionActivityType": "滿額折/送",
+                    "PromotionActivityTypeId": 8
                 }
             ]
         },
-        {
-            "電腦螢幕．硬碟 ": [
+        "電腦螢幕．硬碟 ": [
+            {
+                "電腦螢幕": [
+                    {
+                        "Id": 2120,
+                        "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                        "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                        "SeName": "/tw/4500110100101?categoryId=3418",
+                        "SpecialPrice": 13900,
+                        "Price": 15900,
+                        "PromotionActivityType": "滿額折/送",
+                        "PromotionActivityTypeId": 8
+                    },
+                    {
+                        "Id": 2120,
+                        "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                        "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                        "SeName": "/tw/4500110100101?categoryId=3418",
+                        "SpecialPrice": 13900,
+                        "Price": 15900,
+                        "PromotionActivityType": "滿額折/送",
+                        "PromotionActivityTypeId": 8
+                    }
+                ]
+            },
+            {
+                "硬碟": [
+                    {
+                        "Id": 2120,
+                        "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                        "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                        "SeName": "/tw/4500110100101?categoryId=3418",
+                        "SpecialPrice": 13900,
+                        "Price": 15900,
+                        "PromotionActivityType": "滿額折/送",
+                        "PromotionActivityTypeId": 8
+                    },
+                    {
+                        "Id": 2120,
+                        "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                        "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                        "SeName": "/tw/4500110100101?categoryId=3418",
+                        "SpecialPrice": 13900,
+                        "Price": 15900,
+                        "PromotionActivityType": "滿額折/送",
+                        "PromotionActivityTypeId": 8
+                    }
+                ]
+            }
+        ]
+    },
+    "4C": {
+        "桌機．筆電．平板": {
+            "筆記型電腦": [
                 {
-                    "電腦螢幕": [
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": 13900,
-                            "Price": 15900,
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        },
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": 13900,
-                            "Price": 15900,
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        }
-                    ]
+                    "Id": 2120,
+                    "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                    "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                    "SeName": "/tw/4500110100101?categoryId=3418",
+                    "SpecialPrice": "13900",
+                    "Price": "15900",
+                    "PromotionActivityType": "滿額折/送",
+                    "PromotionActivityTypeId": 8
                 },
                 {
-                    "硬碟": [
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": 13900,
-                            "Price": 15900,
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        },
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": 13900,
-                            "Price": 15900,
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        }
-                    ]
+                    "Id": 2120,
+                    "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                    "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                    "SeName": "/tw/4500110100101?categoryId=3418",
+                    "SpecialPrice": "13900",
+                    "Price": "15900",
+                    "PromotionActivityType": "滿額折/送",
+                    "PromotionActivityTypeId": 8
                 }
-            ]
-        }
-    ],
-    "4C": [
-        {
-            "桌機．筆電．平板": [
+            ],
+            "平板電腦": [
                 {
-                    "筆記型電腦": [
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        },
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        }
-                    ]
+                    "Id": 2120,
+                    "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                    "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                    "SeName": "/tw/4500110100101?categoryId=3418",
+                    "SpecialPrice": "13900",
+                    "Price": "15900",
+                    "PromotionActivityType": "滿額折/送",
+                    "PromotionActivityTypeId": 8
                 },
                 {
-                    "平板電腦": [
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        },
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        }
-                    ]
+                    "Id": 2120,
+                    "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                    "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                    "SeName": "/tw/4500110100101?categoryId=3418",
+                    "SpecialPrice": "13900",
+                    "Price": "15900",
+                    "PromotionActivityType": "滿額折/送",
+                    "PromotionActivityTypeId": 8
                 }
             ]
         },
-        {
-            "電腦螢幕．硬碟 ": [
-                {
-                    "電腦螢幕": [
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        },
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        }
-                    ]
-                },
-                {
-                    "硬碟": [
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        },
-                        {
-                            "Id": 2120,
-                            "Name": "宏碁 A317-32-P3XN筆記型電腦",
-                            "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
-                            "SeName": "/tw/4500110100101?categoryId=3418",
-                            "SpecialPrice": "13900",
-                            "Price": "15900",
-                            "PromotionActivityType": "滿額折/送",
-                            "PromotionActivityTypeId": 8
-                        }
-                    ]
-                }
-            ]
-        }
-    ]
+        "電腦螢幕．硬碟 ": [
+            {
+                "電腦螢幕": [
+                    {
+                        "Id": 2120,
+                        "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                        "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                        "SeName": "/tw/4500110100101?categoryId=3418",
+                        "SpecialPrice": 13900,
+                        "Price": 15900,
+                        "PromotionActivityType": "滿額折/送",
+                        "PromotionActivityTypeId": 8
+                    },
+                    {
+                        "Id": 2120,
+                        "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                        "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                        "SeName": "/tw/4500110100101?categoryId=3418",
+                        "SpecialPrice": 13900,
+                        "Price": 15900,
+                        "PromotionActivityType": "滿額折/送",
+                        "PromotionActivityTypeId": 8
+                    }
+                ]
+            },
+            {
+                "硬碟": [
+                    {
+                        "Id": 2120,
+                        "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                        "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                        "SeName": "/tw/4500110100101?categoryId=3418",
+                        "SpecialPrice": 13900,
+                        "Price": 15900,
+                        "PromotionActivityType": "滿額折/送",
+                        "PromotionActivityTypeId": 8
+                    },
+                    {
+                        "Id": 2120,
+                        "Name": "宏碁 A317-32-P3XN筆記型電腦",
+                        "PictureUrl": "https://image.azureedge.net/0254652_-a317-32-3x_S.jpeg",
+                        "SeName": "/tw/4500110100101?categoryId=3418",
+                        "SpecialPrice": 13900,
+                        "Price": 15900,
+                        "PromotionActivityType": "滿額折/送",
+                        "PromotionActivityTypeId": 8
+                    }
+                ]
+            }
+        ]
+    }
 }
