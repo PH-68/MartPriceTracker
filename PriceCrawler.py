@@ -39,6 +39,7 @@ for i in soup.select("body > section > div.index-show.clearfix.commodities-list 
                 # 進去class之後拿categoryId爬API
                 response = requests.request(
                     "POST", baseUrl+"/ProductShowcase/Catalog/CategoryJson", headers=headers, data=payload)
+                # Todo 這邊記得做例外處理 有時候json會load失敗 因為拿到的是html
                 item_object = json.loads(response.text)
                 # 拿分類名當dict的key
                 str_first_class = soup.select("#proList > div.category.hidden-xs > div.crumbs > a:nth-child(2)")[0].text.replace("/ ", "").replace(" /", "")
