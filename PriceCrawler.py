@@ -89,7 +89,7 @@ def main():
     url = "https://api.github.com/repos/ph-68/MartPriceTracker/contents/"+str(int(time.time()))+".json"
 
     # Serialize dict to json
-    payload = "{\"message\":\"Hello from Python!\",\"content\":\""+str(base64.b64encode((json.dumps(root_dict).encode("utf-8")))).replace("b'", "").replace("'", "")+"\",\"branch\":\"data\"}"
+    payload = "{\"message\":\"File uploaded from python in AWS Lambda!\",\"content\":\""+str(base64.b64encode((json.dumps(root_dict).encode("utf-8")))).replace("b'", "").replace("'", "")+"\",\"branch\":\"data\"}"
     headers = {
         'Accept': 'application/vnd.github.v3+json',
         'Authorization': 'Basic '+os.environ["MartPriceTracker_Github_Token"],
@@ -97,6 +97,7 @@ def main():
     }
     response = requests.request("PUT", url, headers=headers, data=payload)
     print(response)
+    return response.status_code
 # 最後上傳github https://docs.github.com/en/rest/reference/repos#create-or-update-file-contents 檔名用unix time
 
 
