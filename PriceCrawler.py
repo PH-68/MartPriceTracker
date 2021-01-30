@@ -1,14 +1,10 @@
-import asyncio
 import base64
 import json
 import os
-import re
-import time
 import threading
+import time
 
 import requests
-from bs4 import BeautifulSoup
-from requests.adapters import HTTPAdapter
 
 root_dict = dict({})
 base_url = "https://online.carrefour.com.tw"
@@ -68,6 +64,8 @@ def main():
     }
 
     menu_object = json.loads(requests.request("POST", base_url+"/ProductShowcase/Catalog/GetMenuJson", headers=headers, data=payload).text)
+    t = []
+    t_count = 0
     for i in range(len(menu_object["content"])):
         str_first_class = menu_object["content"][i]["Name"]
         root_dict[str_first_class] = dict({})
@@ -80,16 +78,20 @@ def main():
                 str_third_class = menu_object["content"][i]["SubCategories"][v]["SubCategories"][n]["Name"]
                 root_dict[str_first_class][str_second_class][str_third_class] = []
                 # 第三類
-                t = threading.Thread(target=get_and_add_item, args=(str(menu_object["content"][i]["SubCategories"][v]["SubCategories"][n]["Id"]), menu_object, i,
-                                                                    v, n, str_first_class, str_second_class, str_third_class,))
+                t.append(threading.Thread(target=get_and_add_item, args=(str(menu_object["content"][i]["SubCategories"][v]["SubCategories"][n]["Id"]), menu_object, i,
+                                                                         v, n, str_first_class, str_second_class, str_third_class,)))
                 # 建立執行緒
-                t.start()
+                t[t_count].start()
+                t_count = t_count+1
+    for i in range(len(t)):
+        t[i].join()
 
     # 最後上傳github
     url = "https://api.github.com/repos/ph-68/MartPriceTracker/contents/"+str(int(time.time()))+".json"
 
     # Serialize dict to json
-    payload = "{\"message\":\"File uploaded from python in AWS Lambda!\",\"content\":\""+str(base64.b64encode((json.dumps(root_dict).encode("utf-8")))).replace("b'", "").replace("'", "")+"\",\"branch\":\"data\"}"
+    payload = "{\"message\":\"File uploaded from python in AWS Lambda!\",\"content\":\"" + \
+        str(base64.b64encode((json.dumps(root_dict).encode("utf-8")))).replace("b'", "").replace("'", "")+"\",\"branch\":\"data\"}"
     headers = {
         'Accept': 'application/vnd.github.v3+json',
         'Authorization': 'Basic '+os.environ["MartPriceTracker_Github_Token"],
