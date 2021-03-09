@@ -32,14 +32,19 @@ def get_and_add_item(categoryId, menu_object, i, v, n, str_first_class, str_seco
     # 爬取並加入dict
     print(str_third_class)
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4386.0 Safari/537.36 Edg/89.0.767.0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90 Safari/537.36 Edg/90",
         "Content-Type": "application/x-www-form-urlencoded"
     }
     payload = "categoryId=" + categoryId + "&orderBy=21&pageIndex=1&pageSize=1000"
     # 進去class之後拿categoryId爬API
     while True:
         # 錯誤處理 如果不是json就一直重爬
-        response = requests.request("POST", base_url+"/ProductShowcase/Catalog/CategoryJson", headers=headers, data=payload)
+        response = None
+        while response is None:
+            try:
+                response = requests.request("POST", base_url+"/ProductShowcase/Catalog/CategoryJson", headers=headers, data=payload)
+            except:
+                pass
         if is_json(response.text):
             item_object = json.loads(response.text)
             # 如果品項大於1000的話就去爬第二頁
@@ -59,7 +64,7 @@ def get_and_add_item(categoryId, menu_object, i, v, n, str_first_class, str_seco
 def main():
     payload = "langId=1&langCode=zh-tw"
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4386.0 Safari/537.36 Edg/89.0.767.0",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90 Safari/537.36 Edg/90",
         "Content-Type": "application/x-www-form-urlencoded"
     }
 
